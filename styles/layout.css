@@ -1,0 +1,103 @@
+@media screen and (max-width: 800px) {
+    .nav {
+        clear: both;
+        background: lightgray;
+        border: 1px solid red;
+        border-bottom: 0px;
+        width: 99.58333333333333%;
+        height: 75px;
+    }
+    #b {
+        background: lightgray;
+        border: 3px solid blue;
+        border-bottom: 0px;
+        width: 99.58333333333333%;
+        height: 150px; 
+    }
+    .article {
+        background: lightgray;
+        border: 3px solid yellow;
+        border-bottom: 0px;
+        width: 99.58333333333333%;
+        height: 125px; 
+    }
+    .four:first-child, .four:nth-child(3) {
+        border: 3px solid teal;
+        border-bottom: 0px;
+    }
+    .four:nth-child(2), .four:nth-child(4) {
+        border: 3px solid purple;
+        border-left: 0px;
+        border-bottom: 0px;
+    }
+    .four{
+        float: left;
+        background: lightgray;
+        width: 49.6875%;
+        height: 250px;  
+    }
+    .j {
+        clear: left;
+        background: lightgray;
+        border: 3px solid orange;
+        width: 99.58333333333333%;
+        height: 80px;
+    }
+    p {
+        position: relative;
+        top: 50%;
+        text-align: center;
+        transform: translateY(-50%)
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .main-nav {
+        background: lightgray;
+        width: 99.79166666666667%;
+        border: 3px solid red;
+        border-bottom: 0px;
+        height: 99px;
+    }
+    #a {
+        float: left;
+        background: lightgray;
+        border: 3px solid yellow;
+        width: 20.625%;
+        height: 598px; 
+    }
+    .article {
+        float: left;
+        background: lightgray;
+        border: 3px solid pink;
+        border-bottom: 0px;
+        border-left: 0px;
+        width: 39.479166666666665%;
+        height: 199px; 
+    }
+    .four{
+        float: left;
+        background: lightgray;
+        border: 3px solid green;
+        border-bottom: 0px;
+        border-left: 0px;
+        width:  19.6875%;
+        height: 249px;  
+    }
+    .j {
+        float: left;
+        background: lightgray;
+        border: 3px solid purple;
+        border-left: 0px;
+        width:  79.0625%;
+        height: 148px;
+    }
+    p {
+        position: relative;
+        top: 50%;
+        text-align: center;
+        transform: translateY(-50%);
+    }
+}
+
+@import 'base.css';
